@@ -78,7 +78,14 @@
 // Landing page estática
 </script>
 
-<style scoped>
+<style>
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
 .page {
   min-height: 100vh;
   background: radial-gradient(1200px 600px at top, #0f172a, #020617);
