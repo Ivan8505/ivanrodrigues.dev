@@ -65,7 +65,9 @@
         <p class="contact-text">Quer conversar sobre suporte avançado, infraestrutura ou operações?</p>
         <div class="actions">
           <a href="mailto:ivan2g.rodriigues@gmail.com" class="btn primary">Email</a>
-          <a href="https://ivanrodrigues.dev" target="_blank" class="btn secondary">Portfólio</a>
+          <a href="https://www.linkedin.com/in/ivan8505/" target="_blank" class="btn secondary">Linkedin</a>
+          <a href="https://wa.me/5519999004353" target="_blank" class="btn secondary">WhatsApp</a>
+          <a href="xwiki.ivanrodrigues.dev" target="_blank" class="btn secondary">Documentação</a>
         </div>
       </section>
 
