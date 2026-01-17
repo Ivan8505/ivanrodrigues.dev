@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  landing:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      network: host   # ⚠️ ESSENCIAL no seu ambiente
+    image: landing-nuxt
+    container_name: landing-nuxt
+    #ports:
+      #- "8080:80"
+    restart: unless-stopped
+
