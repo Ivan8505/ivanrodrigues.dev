@@ -10,16 +10,23 @@
     <main class="container">
       <!-- HERO -->
       <section class="hero">
-        <h1>Analista de Suporte Técnico</h1>
+        <h1>Analista de Suporte Técnico 
+          <!-- <p class="subtitle"> -->
+            <!-- Atuação em Suporte N1, N2 e N3, ambientes audiovisuais críticos e infraestrutura de TI em formação. -->
+          <!-- </p> -->
+        </h1>
         <p class="subtitle">
-          Responsável por manter ambientes críticos estáveis em operação 24/7,
-          atuando na contenção e resolução de incidentes de alta complexidade em
-          Linux, redes e serviços web.
+          Responsável por manter ambientes críticos estáveis em operação 24/7, atuando na contenção e resolução de incidentes de alta complexidade em Linux, redes e serviços web.
+        </p>
+        <p class="subtitle">
+          Este site é hospedado e operado em laboratório técnico próprio (homelab), utilizado para estudo, testes e operação real de serviços.
         </p>
         <p>
           <div class="actions">
             <a href="#contato" class="btn primary">Entrar em contato</a>
             <a href="#experiencia" class="btn secondary">Ver experiência</a>
+            <a href="#academica" class="btn secondary">Ver Formação</a>
+            <a href="#home-lab" class="btn secondary">Ver Laboratório</a>
           </div>
         </p>
       </section>
@@ -67,7 +74,7 @@
           </ul>
           <h3>Centro Universitário Senac – Santo Amaro</h3>
           <span class="role">Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) | EAD Em andamento (2024 – 2026)</span>
-          Formação superior tecnológica com foco em análise de sistemas, arquitetura de software, bancos de dados e sistemas distribuídos, aplicados à compreensão de ambientes, serviços e operações de TI.
+          <p>Formação superior tecnológica com foco em análise de sistemas, arquitetura de software, bancos de dados e sistemas distribuídos, aplicados à compreensão de ambientes, serviços e operações de TI.</p>
           Principais áreas abordadas:
           <ul class="bullets">
             <li>Análise de sistemas e levantamento de requisitos técnicos</li> 
@@ -79,6 +86,44 @@
           </ul>
         </div>
       </section>
+
+      <!-- HOME LAB -->
+      <section id="home-lab" class="section">
+        <h2>Homelab / Laboratório Técnico</h2>
+        <div class="card">
+          <h3>Visão Geral</h3>
+          <p>
+            Laboratório técnico pessoal voltado à prática e consolidação de conhecimentos em infraestrutura de TI, com foco em Linux, redes, containers Docker e operação de serviços.
+
+O ambiente é utilizado para simular cenários reais, testar arquiteturas, validar integrações e aprofundar habilidades de troubleshooting, organização e operação de sistemas, sempre com documentação técnica estruturada.
+          </p>
+          <h4>O que é explorado no ambiente</h4>
+          <ul class="bullets">
+            <li>Administração de sistemas Linux</li> 
+            <li>Containers e orquestração com Docker / Docker Compose</li>
+            <li>Proxy reverso e controle de acesso a serviços</li>
+            <li>Comunicação e segmentação de rede</li>
+            <li>Operação, observabilidade e análise de falhas</li>
+            <li>Documentação técnica e padronização de ambientes</li>
+          </ul>
+          <h4>Características do laboratório</h4>
+          <ul class="bullets">
+            <li>Ambiente baseado em infraestrutura de baixo custo (SBC), com foco educacional</li> 
+            <li>Serviços ativados conforme capacidade do host</li>
+            <li>Separação entre serviços internos, experimentais e de apoio</li>
+            <li>Arquitetura pensada para estudo prático e operação controlada</li>
+          </ul>
+          <h4>Objetivo do Homelab</h4>
+          <p>
+Aplicar conceitos de infraestrutura, redes e operações em um ambiente realista, reforçando a capacidade de análise técnica, tomada de decisão e suporte a serviços críticos.
+
+O laboratório funciona como complemento prático à experiência profissional, fortalecendo a atuação em Suporte N3, Infraestrutura e Operações de TI.
+          </p>
+          <br>
+          <a href="https://xwiki.ivanrodrigues.dev" target="_blank" class="btn primary">Documentação</a>
+        </div>
+      </section>
+
       <!-- STACK -->
       <section class="section">
         <h2>Stack Técnica</h2>
@@ -99,7 +144,6 @@
           <a href="mailto:ivan2g.rodriigues@gmail.com" class="btn primary">Email</a>
           <a href="https://www.linkedin.com/in/ivan8505/" target="_blank" class="btn primary">Linkedin</a>
           <a href="https://wa.me/5519999004353" target="_blank" class="btn primary">WhatsApp</a>
-          <a href="https://xwiki.ivanrodrigues.dev" target="_blank" class="btn secondary">Documentação</a>
         </div>
       </section>
 
