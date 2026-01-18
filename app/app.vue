@@ -21,14 +21,12 @@
         <p class="subtitle">
           Este site é hospedado e operado em laboratório técnico próprio (homelab), utilizado para estudo, testes e operação real de serviços.
         </p>
-        <p>
-          <div class="actions">
+          <p class="actions">
             <a href="#contato" class="btn primary">Entrar em contato</a>
             <a href="#experiencia" class="btn secondary">Ver experiência</a>
             <a href="#academica" class="btn secondary">Ver Formação</a>
             <a href="#home-lab" class="btn secondary">Ver Laboratório</a>
-          </div>
-        </p>
+          </p>
       </section>
 
       <!-- STACK RESUMO -->
