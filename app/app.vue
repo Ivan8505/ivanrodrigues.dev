@@ -42,19 +42,49 @@
           <h3>Centro Universitário Claretiano</h3>
           <span class="role">Analista de Suporte Técnico | 2024 - Atual</span>
           <ul class="bullets">
-            <li>Atuação como último nível de escalonamento em incidentes críticos, garantindo estabilidade operacional e cumprimento de SLAs.</li>
-            <li>Diagnóstico avançado de falhas em redes, sistemas e infraestrutura local.</li>
-            <li>Operação e suporte a ambientes audiovisuais críticos com tolerância zero a falhas.</li>
-            <li>Criação e padronização de documentação técnica e procedimentos operacionais.</li>
+            <li>Atuação principal no suporte a ambientes audiovisuais institucionais, com responsabilidade sobre a estabilidade e operação durante atividades acadêmicas e administrativas críticas.</li> 
+            <li>Resolução frequente de incidentes técnicos que extrapolam o escopo do audiovisual, incluindo sistemas operacionais, conectividade, redes locais e serviços, reduzindo a necessidade de escalonamento</li>
+            <li>Diagnóstico, contenção e solução de falhas técnicas de maior complexidade, atuando de forma integrada com o helpdesk e a equipe de redes quando necessário.</li>
+            <li>Apoio técnico a colegas de outros níveis, contribuindo para a resolução de chamados complexos e disseminação de boas práticas..</li>
+            <li>Criação e padronização de documentação técnica e procedimentos operacionais, visando aumento de eficiência, padronização e redução de recorrência de incidentes.</li>
+            <li>Apoio técnico e orientação a profissionais de mesmo nível, incluindo treinamento de novos colaboradores, disseminação de boas práticas e padronização de processos operacionais.</li>
           </ul>
         </div>
       </section>
 
+      <!-- ACADêMICA -->
+      <section id="academica" class="section">
+        <h2>Formação Acadêmica</h2>
+        <div class="card">
+          <h3>Escola Técnica Senac Rio Claro</h3>
+          <span class="role">Curso Técnico em Informática | 2022 - 2024</span>
+          <ul class="bullets">
+            <li>Montagem, manutenção e suporte de computadores</li> 
+            <li>Instalação e manutenção de sistemas operacionais</li>
+            <li>Redes locais (instalação, configuração e operação)</li>
+            <li>Suporte técnico e diagnóstico de falhas</li>
+            <li>Apoio técnico e orientação a profissionais de mesmo nível, incluindo treinamento de novos colaboradores, disseminação de boas práticas e padronização de processos operacionais.</li>
+          </ul>
+          <h3>Centro Universitário Senac – Santo Amaro</h3>
+          <span class="role">Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) | EAD Em andamento (2024 – 2026)</span>
+          Formação superior tecnológica com foco em análise de sistemas, arquitetura de software, bancos de dados e sistemas distribuídos, aplicados à compreensão de ambientes, serviços e operações de TI.
+          Principais áreas abordadas:
+          <ul class="bullets">
+            <li>Análise de sistemas e levantamento de requisitos técnicos</li> 
+            <li>Arquitetura de software e integração de sistemas</li>
+            <li>Bancos de dados e persistência de informações</li>
+            <li>Sistemas distribuídos e comunicação entre serviços</li>
+            <li>Fundamentos de linguagens de servidor e Web Standards</li>
+            <li>Gerenciamento de projetos e visão de ciclo de vida de sistemas</li>
+          </ul>
+        </div>
+      </section>
       <!-- STACK -->
       <section class="section">
         <h2>Stack Técnica</h2>
         <div class="stack">
           <span>Linux</span>
+          <span>Windows</span>
           <span>Docker</span>
           <span>Nginx</span>
           <span>TCP/IP & DNS</span>
@@ -67,8 +97,8 @@
         <p class="contact-text">Quer conversar sobre suporte avançado, infraestrutura ou operações?</p>
         <div class="actions">
           <a href="mailto:ivan2g.rodriigues@gmail.com" class="btn primary">Email</a>
-          <a href="https://www.linkedin.com/in/ivan8505/" target="_blank" class="btn secondary">Linkedin</a>
-          <a href="https://wa.me/5519999004353" target="_blank" class="btn secondary">WhatsApp</a>
+          <a href="https://www.linkedin.com/in/ivan8505/" target="_blank" class="btn primary">Linkedin</a>
+          <a href="https://wa.me/5519999004353" target="_blank" class="btn primary">WhatsApp</a>
           <a href="https://xwiki.ivanrodrigues.dev" target="_blank" class="btn secondary">Documentação</a>
         </div>
       </section>
