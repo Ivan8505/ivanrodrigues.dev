@@ -10,16 +10,18 @@
     <main class="container">
       <!-- HERO -->
       <section class="hero">
-        <h1>Analista de Suporte Técnico <span>N3</span></h1>
+        <h1>Analista de Suporte Técnico</h1>
         <p class="subtitle">
           Responsável por manter ambientes críticos estáveis em operação 24/7,
           atuando na contenção e resolução de incidentes de alta complexidade em
           Linux, redes e serviços web.
         </p>
-        <div class="actions">
-          <a href="#contato" class="btn primary">Entrar em contato</a>
-          <a href="#experiencia" class="btn secondary">Ver experiência</a>
-        </div>
+        <p>
+          <div class="actions">
+            <a href="#contato" class="btn primary">Entrar em contato</a>
+            <a href="#experiencia" class="btn secondary">Ver experiência</a>
+          </div>
+        </p>
       </section>
 
       <!-- STACK RESUMO -->
@@ -67,7 +69,7 @@
           <a href="mailto:ivan2g.rodriigues@gmail.com" class="btn primary">Email</a>
           <a href="https://www.linkedin.com/in/ivan8505/" target="_blank" class="btn secondary">Linkedin</a>
           <a href="https://wa.me/5519999004353" target="_blank" class="btn secondary">WhatsApp</a>
-          <a href="xwiki.ivanrodrigues.dev" target="_blank" class="btn secondary">Documentação</a>
+          <a href="https://xwiki.ivanrodrigues.dev" target="_blank" class="btn secondary">Documentação</a>
         </div>
       </section>
 
