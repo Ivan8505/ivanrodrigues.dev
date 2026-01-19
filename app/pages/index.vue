@@ -152,7 +152,7 @@
 // Landing page estática
 </script>
 
-<style>
+<style scoped>
 
 .page {
   min-height: 100vh;
