@@ -42,18 +42,25 @@
 
       <!-- EXPERIÊNCIA -->
       <section id="experiencia" class="section">
-        <h2>Experiência Profissional</h2>
-        <div class="card">
-          <h3>Centro Universitário Claretiano</h3>
-          <span class="role">Analista de Suporte Técnico | 2024 - Atual</span>
-          <ul class="bullets">
-            <li>Atuação principal no suporte a ambientes audiovisuais institucionais, com responsabilidade sobre a estabilidade e operação durante atividades acadêmicas e administrativas críticas.</li> 
-            <li>Resolução frequente de incidentes técnicos que extrapolam o escopo do audiovisual, incluindo sistemas operacionais, conectividade, redes locais e serviços, reduzindo a necessidade de escalonamento.</li>
-            <li>Diagnóstico, contenção e solução de falhas técnicas de maior complexidade, atuando de forma integrada com o helpdesk e a equipe de redes quando necessário.</li>
-            <li>Apoio técnico a colegas de outros níveis, contribuindo para a resolução de chamados complexos e disseminação de boas práticas.</li> 
-            <li>Criação e padronização de documentação técnica e procedimentos operacionais, visando aumento de eficiência, padronização e redução de recorrência de incidentes.</li>
-            <li>Apoio técnico e orientação a profissionais de mesmo nível, incluindo treinamento de novos colaboradores, disseminação de boas práticas e padronização de processos operacionais.</li>
-          </ul>
+          <h2>Experiência Profissional</h2>
+          <div class="card">
+            <!-- <div  > -->
+            <h3 :class="{ clamp: !expandedExp }">Centro Universitário Claretiano</h3>
+            <span class="role">Analista de Suporte Técnico | 2024 - Atual</span>
+            <span v-if="expandedExp">
+              <ul class="bullets">
+                <li>Atuação principal no suporte a ambientes audiovisuais institucionais, com responsabilidade sobre a estabilidade e operação durante atividades acadêmicas e administrativas críticas.</li> 
+                <li>Resolução frequente de incidentes técnicos que extrapolam o escopo do audiovisual, incluindo sistemas operacionais, conectividade, redes locais e serviços, reduzindo a necessidade de escalonamento.</li>
+                <li>Diagnóstico, contenção e solução de falhas técnicas de maior complexidade, atuando de forma integrada com o helpdesk e a equipe de redes quando necessário.</li>
+                <li>Apoio técnico a colegas de outros níveis, contribuindo para a resolução de chamados complexos e disseminação de boas práticas.</li> 
+                <li>Criação e padronização de documentação técnica e procedimentos operacionais, visando aumento de eficiência, padronização e redução de recorrência de incidentes.</li>
+                <li>Apoio técnico e orientação a profissionais de mesmo nível, incluindo treinamento de novos colaboradores, disseminação de boas práticas e padronização de processos operacionais.</li>
+              </ul>
+            </span>
+            <button @click="expandedExp = !expandedExp" class="ver-mais">
+              {{ expandedExp ? 'Ver menos' : 'Ver mais' }}
+            </button>
+          <!-- </div> -->
         </div>
       </section>
 
@@ -61,39 +68,49 @@
       <section id="academica" class="section">
         <h2>Formação Acadêmica</h2>
         <div class="card">
-          <h3>Escola Técnica Senac Rio Claro</h3>
-          <span class="role">Curso Técnico em Informática | 2022 - 2024</span>
-          <ul class="bullets">
-            <li>Montagem, manutenção e suporte de computadores.</li> 
-            <li>Instalação e manutenção de sistemas operacionais.</li>
-            <li>Redes locais (instalação, configuração e operação).</li>
-            <li>Suporte técnico e diagnóstico de falhas.</li>
-            <li>Apoio técnico e orientação a profissionais de mesmo nível, incluindo treinamento de novos colaboradores, disseminação de boas práticas e padronização de processos operacionais.</li>
-          </ul>
-          <h3>Centro Universitário Senac – Santo Amaro</h3>
-          <span class="role">Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) | EAD Em andamento (2024 – 2026)</span>
-          <p>Formação superior tecnológica com foco em análise de sistemas, arquitetura de software, bancos de dados e sistemas distribuídos, aplicados à compreensão de ambientes, serviços e operações de TI.</p>
-          Principais áreas abordadas:
-          <ul class="bullets">
-            <li>Análise de sistemas e levantamento de requisitos técnicos.</li> 
-            <li>Arquitetura de software e integração de sistemas.</li>
-            <li>Bancos de dados e persistência de informações.</li>
-            <li>Sistemas distribuídos e comunicação entre serviços.</li>
-            <li>Fundamentos de linguagens de servidor e Web Standards.</li>
-            <li>Gerenciamento de projetos e visão de ciclo de vida de sistemas.</li>
-          </ul>
+          <!-- <div :class="{ clamp: !expandedFormacao }" > -->
+            <h3 :class="{ clamp: !expandedFormacao }">Escola Técnica Senac Rio Claro</h3>
+            <span class="role">Curso Técnico em Informática | 2022 - 2024</span>
+            <span v-if="expandedFormacao">
+              <ul class="bullets">
+                <li>Montagem, manutenção e suporte de computadores.</li> 
+                <li>Instalação e manutenção de sistemas operacionais.</li>
+                <li>Redes locais (instalação, configuração e operação).</li>
+                <li>Suporte técnico e diagnóstico de falhas.</li>
+                <li>Apoio técnico e orientação a profissionais de mesmo nível, incluindo treinamento de novos colaboradores, disseminação de boas práticas e padronização de processos operacionais.</li>
+              </ul>
+            </span>
+            <h3>Centro Universitário Senac – Santo Amaro</h3>
+            <span class="role">Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) | EAD Em andamento (2024 – 2026)</span>
+            <span v-if="expandedFormacao">
+              <p>Formação superior tecnológica com foco em análise de sistemas, arquitetura de software, bancos de dados e sistemas distribuídos, aplicados à compreensão de ambientes, serviços e operações de TI.</p>
+              Principais áreas abordadas:
+              <ul class="bullets">
+                <li>Análise de sistemas e levantamento de requisitos técnicos.</li> 
+                <li>Arquitetura de software e integração de sistemas.</li>
+                <li>Bancos de dados e persistência de informações.</li>
+                <li>Sistemas distribuídos e comunicação entre serviços.</li>
+                <li>Fundamentos de linguagens de servidor e Web Standards.</li>
+                <li>Gerenciamento de projetos e visão de ciclo de vida de sistemas.</li>
+              </ul>
+            </span>
+            <button @click="expandedFormacao = !expandedFormacao" class="ver-mais">
+              {{ expandedFormacao ? 'Ver menos' : 'Ver mais' }}
+            </button>
+          <!-- </div> -->
         </div>
       </section>
 
       <!-- HOME LAB -->
       <section id="home-lab" class="section">
-        <h2>Homelab | Laboratório Técnico</h2>
+        <h2 :class="{ clamp: !expandedLab }">Homelab | Laboratório Técnico</h2>
         <div class="card">
           <h3>Visão Geral</h3>
           <p>
             Laboratório técnico pessoal voltado à prática e consolidação de conhecimentos em infraestrutura de TI, com foco em Linux, redes, containers Docker e operação de serviços.
             O ambiente é utilizado para simular cenários reais, testar arquiteturas, validar integrações e aprofundar habilidades de troubleshooting, organização e operação de sistemas, sempre com documentação técnica estruturada.
           </p>
+          <span v-if="expandedLab">
           <h4>O que é explorado no ambiente:</h4>
           <ul class="bullets">
             <li>Administração de sistemas Linux.</li> 
@@ -117,6 +134,12 @@
           </p>
           <br>
           <a href="https://xwiki.ivanrodrigues.dev" target="_blank" class="btn primary">Documentação</a>
+          </span>
+          <p>
+            <button @click="expandedLab = !expandedLab" class="ver-mais">
+              {{ expandedLab ? 'Ver menos' : 'Ver mais' }}
+            </button>
+          </p>
         </div>
       </section>
 
@@ -150,6 +173,14 @@
 
 <script setup>
 // Landing page estática
+
+import { ref } from 'vue'
+const expandedExp = ref(false)
+const expandedFormacao = ref(false)
+const expandedLab = ref(false)
+
+
+
 </script>
 
 <style scoped>
@@ -285,5 +316,23 @@
   font-size: 0.85rem;
   color: #64748b;
 }
+
+.clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* quantas linhas aparecem */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ver-mais {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #4ade80; /* verde clean */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
 </style>
 
