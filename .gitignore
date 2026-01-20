@@ -24,4 +24,4 @@ logs
 !.env.example
 
 # Yarn default
-yarn.lock
+#yarn.lock
