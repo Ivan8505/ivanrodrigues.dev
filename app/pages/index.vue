@@ -10,11 +10,10 @@
     <main class="container">
       <!-- HERO -->
       <section class="hero">
-        <h1>Ivan Rodrigues | Analista de Suporte Técnico 
-          <p class="subtitle">
-            Atuação em Suporte N1, N2 e N3, ambientes audiovisuais críticos e infraestrutura de TI em formação.
-          </p>
-        </h1>
+        <h1>Ivan Rodrigues | Analista de Suporte Técnico</h1>
+          <!-- <p class="subtitle"> -->
+            <!-- Atuação em Suporte N1, N2 e N3, ambientes audiovisuais críticos e infraestrutura de TI em formação. -->
+          <!-- </p> -->
         <p class="subtitle">
           Responsável por manter ambientes críticos estáveis em operação 24/7, atuando na contenção e resolução de incidentes de alta complexidade em Linux, redes e serviços web.
         </p>
@@ -22,10 +21,11 @@
           Este site é hospedado e operado em laboratório técnico próprio (homelab), utilizado para estudo, testes e operação real de serviços.
         </p>
           <p class="actions">
-            <a href="#contato" class="btn primary">Entrar em Contato</a>
             <a href="#experiencia" class="btn secondary">Ver Experiência</a>
             <a href="#academica" class="btn secondary">Ver Formação</a>
             <a href="#home-lab" class="btn secondary">Ver Laboratório</a>
+            <a href="#contato" class="btn primary">Entrar em Contato</a>
+            <a target="_blank" href="https://github.com/Ivan8505" class="btn primary">Ver Portifolio</a>
           </p>
       </section>
 
@@ -47,7 +47,12 @@
             <!-- <div  > -->
             <h3 :class="{ clamp: !expandedExp }">Centro Universitário Claretiano</h3>
             <span class="role">Analista de Suporte Técnico | 2024 - Atual</span>
+            <h4>Visão Geral</h4>
+            <p>
+              Atuação em suporte técnico a ambientes institucionais críticos, com foco na estabilidade operacional, resolução de incidentes de maior complexidade e apoio técnico a equipes de diferentes níveis, incluindo documentação e padronização de processos.
+            </p>
             <span v-if="expandedExp">
+              <p>Principais atividades:</p>
               <ul class="bullets">
                 <li>Atuação principal no suporte a ambientes audiovisuais institucionais, com responsabilidade sobre a estabilidade e operação durante atividades acadêmicas e administrativas críticas.</li> 
                 <li>Resolução frequente de incidentes técnicos que extrapolam o escopo do audiovisual, incluindo sistemas operacionais, conectividade, redes locais e serviços, reduzindo a necessidade de escalonamento.</li>
@@ -71,7 +76,12 @@
           <!-- <div :class="{ clamp: !expandedFormacao }" > -->
             <h3 :class="{ clamp: !expandedFormacao }">Escola Técnica Senac Rio Claro</h3>
             <span class="role">Curso Técnico em Informática | 2022 - 2024</span>
+            <h4>Visão Geral</h4>
+            <p>
+             Formação técnica com foco em suporte, manutenção de sistemas e redes, fornecendo base sólida para atuação prática em ambientes de TI.
+            </p>
             <span v-if="expandedFormacao">
+              <p>Principais áreas abordadas:</p>
               <ul class="bullets">
                 <li>Montagem, manutenção e suporte de computadores.</li> 
                 <li>Instalação e manutenção de sistemas operacionais.</li>
@@ -82,6 +92,10 @@
             </span>
             <h3>Centro Universitário Senac – Santo Amaro</h3>
             <span class="role">Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) | EAD Em andamento (2024 – 2026)</span>
+            <h4>Visão Geral</h4>
+            <p>
+              Formação superior tecnológica voltada à análise e desenvolvimento de sistemas, com foco em arquitetura de software, bancos de dados e sistemas distribuídos, aplicados à compreensão de ambientes, serviços e operações de TI.
+            </p>
             <span v-if="expandedFormacao">
               <p>Formação superior tecnológica com foco em análise de sistemas, arquitetura de software, bancos de dados e sistemas distribuídos, aplicados à compreensão de ambientes, serviços e operações de TI.</p>
               Principais áreas abordadas:
@@ -132,9 +146,9 @@
             Aplicar conceitos de infraestrutura, redes e operações em um ambiente realista, reforçando a capacidade de análise técnica, tomada de decisão e suporte a serviços críticos.
             O laboratório funciona como complemento prático à experiência profissional, fortalecendo a atuação em Suporte N3, Infraestrutura e Operações de TI.
           </p>
+          </span>
           <br>
           <a href="https://xwiki.ivanrodrigues.dev" target="_blank" class="btn primary">Documentação</a>
-          </span>
           <p>
             <button @click="expandedLab = !expandedLab" class="ver-mais">
               {{ expandedLab ? 'Ver menos' : 'Ver mais' }}
