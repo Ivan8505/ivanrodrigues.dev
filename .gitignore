@@ -15,13 +15,8 @@ logs
 
 # Misc
 .DS_Store
-.fleet
-.idea
 
 # Local env files
 .env
 .env.*
 !.env.example
-
-# Yarn default
-#yarn.lock
