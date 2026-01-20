@@ -5,10 +5,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      network: host   # ⚠️ ESSENCIAL no seu ambiente
+      network: host
     image: landing-nuxt
     container_name: landing-nuxt
-    #ports:
-      #- "8080:80"
+    ports:
+      - "8080:80"
     restart: unless-stopped
 
