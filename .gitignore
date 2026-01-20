@@ -23,5 +23,5 @@ logs
 .env.*
 !.env.example
 
-# Yarn cria automaticamente rodando yarn install
+# Yarn default
 yarn.lock
