@@ -1,75 +1,70 @@
-# Nuxt Minimal Starter
+# Landing Page — Ivan Rodrigues
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este repositório contém o código-fonte da **landing page pessoal** utilizada como
+apresentação profissional e ponto de entrada para meu portfólio técnico.
 
-## Setup
+A página foi desenvolvida com foco em clareza, leitura objetiva e organização,
+servindo como uma visão geral da minha atuação em suporte técnico, infraestrutura
+e operações de TI.
 
-Make sure to install dependencies:
+---
 
-```bash
-# npm
-npm install
+## 🎯 Propósito da Landing Page
 
-# pnpm
-pnpm install
+- Apresentar de forma direta meu perfil profissional
+- Resumir experiência, formação e stack técnica
+- Centralizar links de contato, GitHub e documentação
+- Atuar como porta de entrada para conteúdos técnicos mais aprofundados
 
-# yarn
-yarn install
+A landing page **não substitui** a documentação técnica detalhada do laboratório.
+Ela funciona como camada de apresentação, enquanto a documentação completa
+encontra-se no wiki técnico (XWiki).
 
-# bun
-bun install
-```
+---
 
-## Development Server
+## 🧩 Estrutura do Conteúdo
 
-Start the development server on `http://localhost:3000`:
+- **Hero / Visão Geral**  
+  Introdução profissional e contexto de atuação.
 
-```bash
-# npm
-npm run dev
+- **Experiência Profissional**  
+  Resumo da atuação prática em ambientes reais, com opção de aprofundamento.
 
-# pnpm
-pnpm dev
+- **Formação Acadêmica**  
+  Base técnica e acadêmica que sustenta a atuação profissional.
 
-# yarn
-yarn dev
+- **Homelab | Laboratório Técnico**  
+  Visão geral do ambiente de estudos e operação, com link direto para a
+  documentação técnica detalhada.
 
-# bun
-bun run dev
-```
+- **Stack Técnica e Contato**  
+  Tecnologias, ferramentas e formas de contato profissional.
 
-## Production
+---
 
-Build the application for production:
+## 🛠 Tecnologias Utilizadas
 
-```bash
-# npm
-npm run build
+- Nuxt 4 (Vue 4)
+- JavaScript
+- HTML5 & CSS3
+- Git & GitHub
 
-# pnpm
-pnpm build
+---
 
-# yarn
-yarn build
+## 🌐 Aplicação em Produção
 
-# bun
-bun run build
-```
+Este projeto está em operação contínua e pode ser acessado em:
 
-Locally preview production build:
+👉 https://ivanrodrigues.dev
 
-```bash
-# npm
-npm run preview
+O código-fonte é disponibilizado para fins de estudo, análise técnica
+e demonstração de organização, versionamento e boas práticas.
 
-# pnpm
-pnpm preview
+---
 
-# yarn
-yarn preview
+## 📌 Nota Final
 
-# bun
-bun run preview
-```
+Este repositório reflete minha abordagem prática, objetiva e evolutiva no uso de
+tecnologias web como apoio à atuação em suporte, infraestrutura e operações de TI.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+© 2026 Ivan Guimarães Rodrigues
