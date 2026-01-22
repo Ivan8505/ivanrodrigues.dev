@@ -108,6 +108,9 @@
                 <li>Gerenciamento de projetos e visão de ciclo de vida de sistemas.</li>
               </ul>
             </span>
+            <p class="action">
+              <a class="btn primary" target="_blank" href="/tccs">Trabalhos de Conclusão de Curso</a>
+            </p>
             <button @click="expandedFormacao = !expandedFormacao" class="ver-mais">
               {{ expandedFormacao ? 'Ver menos' : 'Ver mais' }}
             </button>
