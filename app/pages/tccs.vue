@@ -110,6 +110,10 @@
         <!-- <h4>💻 Projeto</h4> -->
         <!-- <a class="btn secondary">Ver no GitHub</a> -->
       <!-- </div> -->
+      <p class="actions">
+      <a href="/" class="btn primary">Voltar</a>
+      </p>
+      <footer class="footer">© 2026 Ivan Guimarães Rodrigues</footer>
     </div>
   </section>
 </template>
