@@ -5,10 +5,10 @@ WORKDIR /app
 
 # O Yarn JÁ ESTÁ na imagem, não precisa de corepack nem de .tgz
 # Copiamos apenas os arquivos que descrevem as dependências
-COPY package.json yarn.lock ./
+COPY package.json ./
 
 # Como você está usando --network host, isso aqui vai funcionar:
-RUN yarn install --frozen-lockfile
+RUN yarn install
 
 # Copia o resto do código
 COPY . .
