@@ -31,7 +31,7 @@
 
         <h4>📘 Trabalho de Conclusão de Curso</h4>
         <p class="actions">
-          <a class="btn primary" href="Documento Final - QPT01.pdf" target="_blank">Abrir TCC (PDF)</a>
+          <a class="btn primary" href="/Documento Final - QPT01.pdf" target="_blank">Abrir TCC (PDF)</a>
         </p>
         
         <!-- <hr /> -->
