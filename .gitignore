@@ -15,16 +15,17 @@ logs
 
 # Misc
 .DS_Store
-.fleet
-.idea
 
 # Local env files
 .env
 .env.*
 !.env.example
+<<<<<<< HEAD
 
 # Yarn default
 yarn.lock
 
 #Alguns Arquivos não interessantes de Versionar que estão no public
-public
+public/Senac
+=======
+>>>>>>> main
