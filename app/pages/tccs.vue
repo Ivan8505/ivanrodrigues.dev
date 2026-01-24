@@ -10,7 +10,7 @@
       <div class="card">
         <h2>Técnico em Informática</h2>
         <hr  />
-      <h3>❓ Qual foi o desafio do Projeto Integrador I?</h3>
+        <h3>❓ Qual foi o desafio do Projeto Integrador I?</h3>
         <p>
           Estruturar a área de Tecnologia da Informação de uma empresa, considerando aspectos físicos, lógicos e operacionais do parque de máquinas.
         </p>
@@ -31,30 +31,30 @@
 
         <h4>📘 Trabalho de Conclusão de Curso</h4>
         <p class="actions">
-          <a class="btn primary" href="/Documento Final - QPT01.pdf" target="_blank">Abrir TCC (PDF)</a>
+          <a class="btn primary" href="/Senac/Documento Final - QPT01.pdf" target="_blank">Abrir TCC (PDF)</a>
         </p>
         
-        <!-- <hr /> -->
+        <hr />
 
-      <!-- <h3>❓ Qual foi o desafio do Projeto Integrador II?</h3> -->
-        <!-- <p> -->
-         <!-- Planejar e documentar toda a infraestrutura de rede física e lógica de uma empresa, abrangendo topologia, endereçamento IP, servidores, serviços de rede, cabeamento estruturado e políticas de segurança, além da simulação prática do ambiente em cenário virtual. -->
-        <!-- </p> -->
-        <!-- <p>As principais atividades desenvolvidas incluíram:</p> -->
-        <!-- <ul> -->
-          <!-- <li>Levantamento da estrutura organizacional e dos setores da empresa.</li> -->
-          <!-- <li>Definição da topologia de rede lógica e arquitetura de comunicação.</li> -->
-          <!-- <li>Planejamento de endereçamento IP, gateways, DNS e links de internet.</li> -->
-          <!-- <li>Especificação de servidores, sistemas operacionais e serviços de rede (DNS, DHCP, firewall, etc.).</li> -->
-          <!-- <li>Projeto de cabeamento estruturado conforme normas EIA/TIA.</li> -->
-          <!-- <li>Elaboração de diagramas de rede e plantas físicas.</li> -->
-          <!-- <li>Simulação do ambiente em cenário virtual com servidores e clientes.</li> -->
-          <!-- <li>Definição de política de segurança e estimativa de custos do projeto.</li> -->
-        <!-- </ul> -->
+        <h3>❓ Qual foi o desafio do Projeto Integrador II?</h3>
+        <p>
+         Planejar e documentar toda a infraestrutura de rede física e lógica de uma empresa, abrangendo topologia, endereçamento IP, servidores, serviços de rede, cabeamento estruturado e políticas de segurança, além da simulação prática do ambiente em cenário virtual.
+        </p>
+        <p>As principais atividades desenvolvidas incluíram:</p>
+        <ul>
+          <li>Levantamento da estrutura organizacional e dos setores da empresa.</li>
+          <li>Definição da topologia de rede lógica e arquitetura de comunicação.</li>
+          <li>Planejamento de endereçamento IP, gateways, DNS e links de internet.</li>
+          <li>Especificação de servidores, sistemas operacionais e serviços de rede (DNS, DHCP, firewall, etc.).</li>
+          <li>Projeto de cabeamento estruturado conforme normas EIA/TIA.</li>
+          <li>Elaboração de diagramas de rede e plantas físicas.</li>
+          <li>Simulação do ambiente em cenário virtual com servidores e clientes.</li>
+          <li>Definição de política de segurança e estimativa de custos do projeto.</li>
+        </ul>
 
 
-        <!-- <h4>📘 Trabalho de Conclusão de Curso</h4> -->
-        <!-- <a class="btn primary">Abrir TCC (PDF)</a> -->
+        <h4>📘 Trabalho de Conclusão de Curso</h4>
+        <a class="btn primary" href="/Senac/Documento Projeto integrador QPT02.pdf">Abrir TCC (PDF)</a>
 
         <!-- <h4>💻 Projeto</h4> -->
         <!-- <p> Maquinas Virtuais - OVA</p> -->
