@@ -34,59 +34,62 @@
           <a class="btn primary" href="Documento Final - QPT01.pdf" target="_blank">Abrir TCC (PDF)</a>
         </p>
         
-        <hr />
+        <!-- <hr /> -->
 
-      <h3>❓ Qual foi o desafio do Projeto Integrador II?</h3>
-        <p>
-         Planejar e documentar toda a infraestrutura de rede física e lógica de uma empresa, abrangendo topologia, endereçamento IP, servidores, serviços de rede, cabeamento estruturado e políticas de segurança, além da simulação prática do ambiente em cenário virtual.
-        </p>
-        <p>As principais atividades desenvolvidas incluíram:</p>
-        <ul>
-          <li>Levantamento da estrutura organizacional e dos setores da empresa.</li>
-          <li>Definição da topologia de rede lógica e arquitetura de comunicação.</li>
-          <li>Planejamento de endereçamento IP, gateways, DNS e links de internet.</li>
-          <li>Especificação de servidores, sistemas operacionais e serviços de rede (DNS, DHCP, firewall, etc.).</li>
-          <li>Projeto de cabeamento estruturado conforme normas EIA/TIA.</li>
-          <li>Elaboração de diagramas de rede e plantas físicas.</li>
-          <li>Simulação do ambiente em cenário virtual com servidores e clientes.</li>
-          <li>Definição de política de segurança e estimativa de custos do projeto.</li>
-        </ul>
+      <!-- <h3>❓ Qual foi o desafio do Projeto Integrador II?</h3> -->
+        <!-- <p> -->
+         <!-- Planejar e documentar toda a infraestrutura de rede física e lógica de uma empresa, abrangendo topologia, endereçamento IP, servidores, serviços de rede, cabeamento estruturado e políticas de segurança, além da simulação prática do ambiente em cenário virtual. -->
+        <!-- </p> -->
+        <!-- <p>As principais atividades desenvolvidas incluíram:</p> -->
+        <!-- <ul> -->
+          <!-- <li>Levantamento da estrutura organizacional e dos setores da empresa.</li> -->
+          <!-- <li>Definição da topologia de rede lógica e arquitetura de comunicação.</li> -->
+          <!-- <li>Planejamento de endereçamento IP, gateways, DNS e links de internet.</li> -->
+          <!-- <li>Especificação de servidores, sistemas operacionais e serviços de rede (DNS, DHCP, firewall, etc.).</li> -->
+          <!-- <li>Projeto de cabeamento estruturado conforme normas EIA/TIA.</li> -->
+          <!-- <li>Elaboração de diagramas de rede e plantas físicas.</li> -->
+          <!-- <li>Simulação do ambiente em cenário virtual com servidores e clientes.</li> -->
+          <!-- <li>Definição de política de segurança e estimativa de custos do projeto.</li> -->
+        <!-- </ul> -->
 
 
-        <h4>📘 Trabalho de Conclusão de Curso</h4>
-        <a class="btn primary">Abrir TCC (PDF)</a>
+        <!-- <h4>📘 Trabalho de Conclusão de Curso</h4> -->
+        <!-- <a class="btn primary">Abrir TCC (PDF)</a> -->
 
-        <h4>💻 Projeto</h4>
-        <p> Maquinas Virtuais - OVA</p>
-        <p class="actions">
-          <a class="btn secondary">Servidor</a>
-          <a class="btn secondary">Cliente</a>
-        </p>
-        <hr />
+        <!-- <h4>💻 Projeto</h4> -->
+        <!-- <p> Maquinas Virtuais - OVA</p> -->
+        <!-- <p class="actions"> -->
+          <!-- <a class="btn secondary">Servidor</a> -->
+          <!-- <a class="btn secondary">Cliente</a> -->
+        <!-- </p> -->
+        <!-- <hr /> -->
 
-        <h3>❓ Qual foi o desafio do Projeto Integrador III?</h3>
-        <p>
-          Desenvolver aplicações desktop e web completas, aplicando todo o ciclo de desenvolvimento de software — da análise de requisitos à implementação, banco de dados, interface, documentação técnica e apresentação final — seguindo padrões acadêmicos e práticas profissionais.
-        </p>
+        <!-- <h3>❓ Qual foi o desafio do Projeto Integrador III?</h3> -->
+        <!-- <p> -->
+          <!-- Desenvolver aplicações desktop e web completas, aplicando todo o ciclo de desenvolvimento de software — da análise de requisitos à implementação, banco de dados, interface, documentação técnica e apresentação final — seguindo padrões acadêmicos e práticas profissionais. -->
+        <!-- </p> -->
 
-        <ul>
-          <li>Levantamento e documentação de requisitos funcionais e não funcionais.</li>
-          <li>Análise de sistemas com diagramas UML (casos de uso, atividades, sequência e classes).</li>
-          <li>Modelagem de dados (MER, modelo relacional e normalização).</li>
-          <li>Implementação de banco de dados SQL (scripts, índices, triggers e procedures).</li>
-          <li>Desenvolvimento de aplicação desktop para controle de estoque, compras e vendas.</li>
-          <li>Desenvolvimento de aplicação web com foco em design responsivo e gestão de conteúdo.</li>
-          <li>Criação de interfaces, wireframes, protótipos e guia de estilo.</li>
-          <li>Entrega, demonstração funcional e apresentação dos projetos.</li>
-        </ul>
+        <!-- <ul> -->
+          <!-- <li>Levantamento e documentação de requisitos funcionais e não funcionais.</li> -->
+          <!-- <li>Análise de sistemas com diagramas UML (casos de uso, atividades, sequência e classes).</li> -->
+          <!-- <li>Modelagem de dados (MER, modelo relacional e normalização).</li> -->
+          <!-- <li>Implementação de banco de dados SQL (scripts, índices, triggers e procedures).</li> -->
+          <!-- <li>Desenvolvimento de aplicação desktop para controle de estoque, compras e vendas.</li> -->
+          <!-- <li>Desenvolvimento de aplicação web com foco em design responsivo e gestão de conteúdo.</li> -->
+          <!-- <li>Criação de interfaces, wireframes, protótipos e guia de estilo.</li> -->
+          <!-- <li>Entrega, demonstração funcional e apresentação dos projetos.</li> -->
+        <!-- </ul> -->
 
         <!-- <hr /> -->
 
-        <h4>📘 Trabalho de Conclusão de Curso</h4>
-        <a class="btn primary">Abrir TCC (PDF)</a>
+        <!-- <h4>📘 Trabalho de Conclusão de Curso</h4> -->
+        <!-- <a class="btn primary">Abrir TCC (PDF)</a> -->
 
-        <h4>💻 Projeto</h4>
-        <a class="btn secondary">Ver no GitHub</a>
+        <!-- <h4>💻 Projeto Web / Desktop</h4> -->
+        <!-- <p class="actions"> -->
+          <!-- <a class="btn secondary">Ver no GitHub Projeto Web</a> -->
+          <!-- <a class="btn secondary">Ver no GitHub Projeto Desktop</a> -->
+        <!-- </p> -->
       </div>
 
       <!-- ADS -->
