@@ -1,15 +1,24 @@
+<!-- <template> -->
+  <!-- <section> -->
+    <!-- <h1>Homelab</h1> -->
+    <!-- <p>Documentação e arquitetura do laboratório.</p> -->
+  <!-- </section> -->
+<!-- </template> -->
 
 <template>
   <div class="page">
     <main class="container">
       <!-- HERO -->
       <section class="hero">
-        <h1>Ivan Rodrigues | Analista de Infraestrutura</h1>
+        <h1>Ivan Rodrigues | Analista de Suporte Técnico</h1>
+          <!-- <p class="subtitle"> -->
+            <!-- Atuação em Suporte N1, N2 e N3, ambientes audiovisuais críticos e infraestrutura de TI em formação. -->
+          <!-- </p> -->
         <p class="subtitle">
-          Atuação focada na operação contínua de ambientes críticos, com experiência em Linux, redes, containers e serviços web, garantindo estabilidade, disponibilidade e resposta a incidentes.
+          Responsável por manter ambientes críticos estáveis em operação 24/7, atuando na contenção e resolução de incidentes de alta complexidade em Linux, redes e serviços web.
         </p>
         <p class="subtitle">
-          Este site é hospedado e operado em laboratório técnico próprio (homelab), utilizado para estudo, testes e operação real de serviços.       
+          Este site é hospedado e operado em laboratório técnico próprio (homelab), utilizado para estudo, testes e operação real de serviços.
         </p>
           <p class="actions">
             <a href="#experiencia" class="btn secondary">Ver Experiência</a>
@@ -56,6 +65,7 @@
             <button @click="expandedExp = !expandedExp" class="ver-mais">
               {{ expandedExp ? 'Ver menos' : 'Ver mais' }}
             </button>
+          <!-- </div> -->
         </div>
       </section>
 
@@ -63,6 +73,7 @@
       <section id="academica" class="section">
         <h2>Formação Acadêmica</h2>
         <div class="card">
+          <!-- <div :class="{ clamp: !expandedFormacao }" > -->
             <h3 :class="{ clamp: !expandedFormacao }">Escola Técnica Senac Rio Claro</h3>
             <span class="role">Curso Técnico em Informática | 2022 - 2024</span>
             <h4>Visão Geral</h4>
@@ -86,6 +97,7 @@
               Formação superior tecnológica voltada à análise e desenvolvimento de sistemas, com foco em arquitetura de software, bancos de dados e sistemas distribuídos, aplicados à compreensão de ambientes, serviços e operações de TI.
             </p>
             <span v-if="expandedFormacao">
+              <p>Formação superior tecnológica com foco em análise de sistemas, arquitetura de software, bancos de dados e sistemas distribuídos, aplicados à compreensão de ambientes, serviços e operações de TI.</p>
               Principais áreas abordadas:
               <ul class="bullets">
                 <li>Análise de sistemas e levantamento de requisitos técnicos.</li> 
@@ -102,6 +114,7 @@
             <button @click="expandedFormacao = !expandedFormacao" class="ver-mais">
               {{ expandedFormacao ? 'Ver menos' : 'Ver mais' }}
             </button>
+          <!-- </div> -->
         </div>
       </section>
 
@@ -176,6 +189,7 @@
 </template>
 
 <script setup>
+// Landing page estática
 
   import { ref } from 'vue'
   const expandedExp = ref(false)
